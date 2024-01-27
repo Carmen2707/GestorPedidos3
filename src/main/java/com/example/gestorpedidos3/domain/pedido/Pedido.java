@@ -54,15 +54,6 @@ public class Pedido implements Serializable {
     @Column(name = "total")
     private Double total;
 
-
-    /**
-     * @return Devuelve el código del pedido.
-     */
-    @Override
-    public String toString() {
-        return código;
-    }
-
     /**
      * Actualiza los datos.
      *
@@ -77,5 +68,13 @@ public class Pedido implements Serializable {
         destino.setFecha(origen.getFecha());
         destino.setTotal(origen.getTotal());
 
+    }
+
+    /**
+     * @return Devuelve el código del pedido.
+     */
+    @Override
+    public String toString() {
+        return código;
     }
 }

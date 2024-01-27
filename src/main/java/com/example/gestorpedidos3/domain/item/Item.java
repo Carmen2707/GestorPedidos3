@@ -43,19 +43,6 @@ public class Item implements Serializable {
     private Producto producto;
 
     /**
-     * @return Devuelve una cadena del item
-     */
-    @Override
-    public String toString() {
-        return "Item{" +
-                "id=" + id +
-                ", codigo=" + codigo.getCódigo() +
-                ", cantidad=" + cantidad +
-                ", producto=" + producto +
-                '}';
-    }
-
-    /**
      * Actualiza los datos.
      *
      * @param origen  el ítem de origen
@@ -68,5 +55,18 @@ public class Item implements Serializable {
         destino.setProducto(origen.getProducto());
         destino.setCantidad(origen.getCantidad());
 
+    }
+
+    /**
+     * @return Devuelve una cadena del item
+     */
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", codigo=" + codigo.getCódigo() +
+                ", cantidad=" + cantidad +
+                ", producto=" + producto +
+                '}';
     }
 }

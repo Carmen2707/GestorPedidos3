@@ -6,9 +6,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<BorderPane id="ventana" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0"
-            styleClass="ventana" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestorpedidos3.controllers.LoginController">
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" id="ventana" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0"
+            prefWidth="1000.0" styleClass="ventana" stylesheets="@style.css"
+            xmlns="http://javafx.com/javafx/21" fx:controller="com.example.gestorpedidos3.controllers.LoginController">
     <center>
 
         <VBox alignment="CENTER" prefHeight="528.0" prefWidth="417.0" BorderPane.alignment="CENTER">

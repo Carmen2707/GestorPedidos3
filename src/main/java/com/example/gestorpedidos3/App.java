@@ -16,22 +16,6 @@ public class App extends Application {
     private static Stage stage;
 
     /**
-     * Método principal que inicia la aplicación.
-     *
-     * @param stage el Stage principal de la aplicación.
-     * @throws IOException si ocurre un error de entrada/salida al cargar el archivo FXML.
-     */
-    @Override
-    public void start(Stage stage) throws IOException {
-        this.stage = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("views/login-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
-        stage.setTitle("Login");
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    /**
      * Cambia la escena actual por una nueva especificada por un archivo FXML y un título.
      *
      * @param fxml  el nombre del archivo FXML de la nueva escena.
@@ -53,5 +37,21 @@ public class App extends Application {
      */
     public static void main(String[] args) {
         launch();
+    }
+
+    /**
+     * Método principal que inicia la aplicación.
+     *
+     * @param stage el Stage principal de la aplicación.
+     * @throws IOException si ocurre un error de entrada/salida al cargar el archivo FXML.
+     */
+    @Override
+    public void start(Stage stage) throws IOException {
+        this.stage = stage;
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("views/login-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
+        stage.setTitle("Login");
+        stage.setScene(scene);
+        stage.show();
     }
 }
