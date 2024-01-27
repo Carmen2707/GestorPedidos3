@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c604b6e-0047-4621-86df-d1df24153038" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InformePedido.jasper" beforeDir="false" afterPath="$PROJECT_DIR$/InformePedido.jasper" afterDir="false" />
-    </list>
+    <list default="true" id="2c604b6e-0047-4621-86df-d1df24153038" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/karme/IdeaProjects/GestorPedidos3",
+    "last_opened_file_path": "C:/Users/karme/Downloads/GestorPedidos3-ObjectDB/GestorPedidos3-ObjectDB",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,7 +129,7 @@
       <workItem from="1706081521506" duration="1433000" />
       <workItem from="1706118941634" duration="4274000" />
       <workItem from="1706206360870" duration="172000" />
-      <workItem from="1706379999549" duration="1730000" />
+      <workItem from="1706379999549" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <option name="closed" value="true" />
@@ -214,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706129135660</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final commit">
+      <option name="closed" value="true" />
+      <created>1706382549600</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706382549600</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +230,7 @@
     <MESSAGE value="commit1" />
     <MESSAGE value="commit final" />
     <MESSAGE value="arreglada la ventana para ver el informe" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglada la ventana para ver el informe" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>
